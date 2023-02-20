@@ -1,5 +1,7 @@
 import { MongoClient } from 'mongodb'
 
+export const MONGO_DB_NAME = "e-commerce";
+
 if (!process.env.MONGODB_URI) {
   throw new Error('Invalid/Missing environment variable: "MONGODB_URI"')
 }

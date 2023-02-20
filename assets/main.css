@@ -1,0 +1,17 @@
+@import './base.css';
+@import './components.css';
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+    font-size: 24px;
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+nav a {
+    color: inherit;
+}

@@ -1,0 +1,16 @@
+.Product {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  background-color: var(--primary-2);
+  border-radius: 10px;
+}
+
+.CategoryPage-List {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
